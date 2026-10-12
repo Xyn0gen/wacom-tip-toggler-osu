@@ -1,0 +1,13 @@
+[package]
+name = "osu-tip-toggle"
+version = "0.1.0"
+edition = "2021"
+description = "Turns pen pressure & buttons off during osu!lazer gameplay on Wacom tablets running shavit's 1000 Hz firmware (Linux)"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/Xyn0gen/wacom-tip-toggler-osu"
+
+[dependencies]
+libc = "0.2"
+
+[profile.release]
+lto = true
